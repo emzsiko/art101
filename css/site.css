@@ -3,13 +3,16 @@
 /* you can pick your own background colors, text colors, and fonts */
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
-body {
-  background-color: #50808E;
+
+#my-pic {
+  width: 200px;
+  border: solid 3px #813b5c;
 }
 
-/* we can have rules apply to multiple elements at the same time with commas */
-h1,h2,h3 {
-  font-family: sans-serif;
+body, div {
+  background-color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(41, 39, 39);
 }
 
 /* and we can have rules that overlap other rules, both take effect */
@@ -17,20 +20,32 @@ h1 {
   letter-spacing: 5px;
   word-spacing: 5px;
   font-size: 200%;
+  font-weight: bolder;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 150%;
+}
+
+h3 {
+  font-weight: bold;
 }
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
   margin: 10px;
   padding: 10px;
-  border: solid 1px #888;
-  background-color: #84B59F;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #888;
-  background-color: #A3C9A8;
+  border: solid 3px #813b5c;
+  background-color: #f3e0e9;
+}
+
+img {
+  border: solid 3px #813b5c;
 }
