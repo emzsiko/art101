@@ -1,21 +1,22 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Lab 6: Arrays and Objects
+// Author: Em Ishida <eishida@ucsc.edu> and Jasmin Vega <jlvega@ucsc.edu>
+// Date: April 28, 2024
 
-// Constants
-
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+// declare variables
+let myTransport = ["car", "bus"];
+myMainRide = {
+  make: "Nissan",
+  model: "Altima",
+  color: "gold",
+  year: 2015,
+  age: function() {
+    return 2024 - this.year;
+  }
 }
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+// print array
+document.writeln("Types of transport used: ", myTransport, "</br>");
 
-// let's get this party started
-main();
+// print object
+document.writeln("Main Ride: <pre>", 
+    JSON.stringify(myMainRide, null, '\t'), "</pre>");
