@@ -1,0 +1,20 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+div {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 3px #813b5c;
+  background-color: #f3e0e9;
+}
+
+#input {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: smaller;
+  font-style: italic;
+  width: 210px;
+}
+
+#output, #description {
+  border: 0px;
+}
